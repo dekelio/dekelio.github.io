@@ -1,0 +1,310 @@
+hr.talks{
+  width: 100%;
+  margin: 5px 0;
+}
+
+/*.navbar{
+  box-shadow: 0px 5px 20px 0 rgba(12,84,141,0.1);
+}*/
+.talks img{
+  display: block;
+  /*width: 100%;*/
+  width: 320px;
+  margin: 0 0;
+}
+.cvl,
+.people{
+  display: flex;
+  flex-flow: row wrap; 
+  /*justify-content: space-between;*/
+}
+.cvl p,
+.people p{
+  text-align: center;
+}
+.art{
+  display: flex;
+  flex-flow: row wrap; 
+  justify-content: space-between;
+}
+.art p{
+  text-align: center;
+}
+.cvl img{
+  height: 80px;
+  width: auto;
+}
+.cvl-links{
+  min-width: 100px;
+}
+.pbt {
+  /* padding bottom and top */
+  padding: 40px 0;
+}
+.person{
+  width: 49%; 
+}
+.artthumb{
+  width: 49%; 
+}
+.person img{
+  display: block;
+  width: 140px;
+  margin: 5px auto;
+  height: auto;
+}
+
+.sponsor img{
+  display: block;
+  width: 140px;
+  height: auto;
+  margin: 5px auto;
+}
+
+.center{
+  margin: 5px auto;
+}
+.center,
+.text-center{
+  text-align: center
+}
+.flex-min{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  /*justify-content: space-between;*/
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.px-1{
+  padding-left: 15px;
+  padding-right: 15px; 
+}
+.photo {
+  width: 49%;
+}
+
+.photo img{
+  display: block;
+  height: 140px;
+  margin: 5px auto;
+  width: auto;
+}
+
+@media screen and (min-width: 567px) {
+  .person{
+    width: 32%;
+  }
+  .artthumb{
+    width: 32%;
+  }
+  .aragnationpiece{
+   width: 100%; 
+  }
+  .artpiece{
+   width: 23%; 
+  }
+  .singleartpiece{
+   width: 100%; 
+  }
+  .fullartpiece{
+   width: 100%; 
+  }
+  .artpiece_with_disc{
+   width: 23%; 
+  }
+}
+@media screen and (min-width: 769px) {
+  .person {
+    width: 24%;
+  }
+  .artthumb {
+    width: 24%;
+  }
+  .aragnationpiece {
+    width: 46%;
+  }
+  .artpiece {
+    width: 23%;
+  }
+  .singleartpiece{
+   width: 100%; 
+  }
+  .fullartpiece{
+   width: 100%; 
+  }
+  .artpiece_with_disc {
+    width: 23%;
+  }
+  .photo {
+    width: 24%;
+  }
+  .flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center */
+  }
+  .flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    flex-direction: space-between; 
+  }
+}
+@media screen and (min-width: 992px) {
+  .person {
+    width: 19%;
+  }
+  .artthumb {
+    width: 19%;
+  }
+  .aragnationpiece {
+    width: 46%;
+  }
+  .artpiece {
+    width: 23%;
+  }
+  .singleartpiece{
+   width: 100%; 
+  }
+  .fullartpiece{
+   width: 100%; 
+  }
+  .artpiece_with_disc {
+    width: 23%;
+  }
+}
+
+/* make youtube videos responsive on extra small screens */
+@media screen and (max-width: 360px){
+  .video__embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    /*margin: 25px 0; */
+    max-width: 640px;
+  }
+  .video__embed iframe,
+  .video__embed object,
+  .video__embed embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+  }
+ }
+
+@media screen and (max-width: 360px){
+  .talks img{
+    /*margin: 25px 0; */
+    width: 275px;
+  }
+}
+
+/*.aragnationpiece{
+  width: 46%; 
+}*/
+
+.artpiece{
+  width: 46%; 
+}
+.singleartpiece{
+   width: 60%; 
+}
+.fullartpiece{
+   width: 100%; 
+}
+.artpiece_with_disc{
+  width: 46%; 
+}
+.artpiece img{
+  display: block;
+  /*width: 140px;*/
+  /*margin: 5px auto;*/
+  max-width: 100%;
+  /*margin: 5px 5px 5px 5px;*/
+  box-shadow: 0px 4px 6px 0px #eee;
+  /*border: 3px solid #718093;*/
+  /*border: 3px solid #333;*/
+  margin: 35px 0px 35px 0px;
+  /*height: auto;*/
+  /*height: 400px;*/
+}
+.aragnationpiece img{
+  display: block;
+  /*width: 140px;*/
+  /*margin: 5px auto;*/
+  max-width: 100%;
+  /*margin: 5px 5px 5px 5px;*/
+  box-shadow: 0px 4px 6px 0px #eee;
+  /*border: 3px solid #718093;*/
+  /*border: 3px solid #333;*/
+  margin: 35px 0px 35px 0px;
+  /*height: auto;*/
+  /*height: 400px;*/
+}
+
+.fullartpiece img{
+   display: block;
+  /*width: 140px;*/
+  /*margin: 5px auto;*/
+  max-width: 100%;
+  /*margin: 5px 5px 5px 5px;*/
+  box-shadow: 0px 4px 6px 0px #eee;
+  /*border: 3px solid #718093;*/
+  /*border: 3px solid #333;*/
+  margin: 35px 0px 35px 0px;
+  /*height: auto;*/
+  /*height: 400px;*/
+}
+
+.singleartpiece img{
+  display: block;
+  /*width: 140px;*/
+  /*margin: 5px auto;*/
+  max-width: 100%;
+  /*margin: 5px 5px 5px 5px;*/
+  box-shadow: 0px 4px 6px 0px #eee;
+  /*border: 3px solid #718093;*/
+  /*border: 3px solid #333;*/
+  margin: 35px 0px 35px 0px;
+  /*height: auto;*/
+  /*height: 400px;*/
+}
+
+.artpiece_with_disc img{
+  display: block;
+  /*width: 140px;*/
+  /*margin: 5px auto;*/
+  max-width: 100%;
+  /*margin: 5px 5px 5px 5px;*/
+  box-shadow: 0px 4px 6px 0px #eee;
+  /*border: 3px solid #718093;*/
+  /*border: 3px solid #333;*/
+  margin: 35px 0px 0px 0px;
+  /*height: auto;*/
+  /*height: 400px;*/
+}
+
+.artthumb img{
+  display: block;
+  width: 140px;
+  margin: 5px auto;
+  height: auto;
+  box-shadow: 0px 4px 6px 0px #eee;
+  /*border: 3px solid #718093;*/
+  /*border: 2px solid #333;*/
+}
+
+canvas {
+  margin: auto;
+  display: block;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0, 0.2);
+  border-radius: 2px;
+}
